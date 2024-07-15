@@ -6,3 +6,108 @@
   font-weight: 400;
   font-style: normal;
 }
+/* =====================HEADER START HERE==================== */
+
+.header {
+  background: rgba(255, 144, 14, 0.1);
+}
+
+/* <!--======NAVBER AREA=======--> */
+
+.navber {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navber-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.nav-links,
+.nav-item {
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px;
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(66, 66, 66);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+}
+
+/*<!--=====BANNER AREA========  -->  */
+
+.banner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.banner-content {
+  max-width: 862px;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.banner-title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: rgb(19, 19, 19);
+}
+
+.banner-text {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgb(114, 114, 114);
+}
+
+.banner-btn {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  background: rgb(255, 144, 14);
+  width: 180px;
+  height: 64px;
+  margin-top: 32px;
+}
+
+.banner-img {
+  margin-top: 50px;
+  margin-bottom: 45px;
+  width: 100%;
+}
+
+/* ============RESPONSIVE HEADER AREA=========== */
+
+@media screen and (max-width: 576px) {
+  .navber,
+  .nav-links {
+    flex-direction: column;
+  }
+  .nav-link {
+    margin-top: 20px;
+  }
+  .navber-title,
+  .banner-title {
+    font-size: 1.5rem;
+  }
+  .banner-btn {
+    padding: 10px;
+    height: auto;
+    width: auto;
+  }
+}
+
+/*==================HEADER END HERE===============*/
